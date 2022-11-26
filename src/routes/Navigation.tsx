@@ -13,7 +13,7 @@ const Experience = lazy(() => import('pages/experience/Experience'));
 
 function Navigation() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         <Route path="/" element={<Home />} />
