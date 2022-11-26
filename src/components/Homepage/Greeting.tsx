@@ -42,7 +42,7 @@ function Greeting(props: any) {
         </div>
         <div className="greeting-image-div">
           {/* <FeelingProud theme={theme} /> */}
-          {/* <img src={require("../../assests/images/background.png")} /> */}
+          <img src={require("../../assests/images/background.png")} />
         </div>
       </div>
     </div>

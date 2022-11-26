@@ -1,15 +1,15 @@
 import React from 'react'
 
-function CloudImg() {
-    const theme = require('../../theme')
+function CloudImg(props: any) {
+    const theme = props.theme;
   return (
     <div> <svg
     id="1dff4cb4-53bd-4ffc-acc1-5e8a2ceb72de"
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
     // xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="864.81"
-    height="658.45"
+    width="560"
+    height="500"
     viewBox="0 0 864.81 658.45"
   >
     <defs>

@@ -10,11 +10,11 @@ function ExperienceCard(props: any) {
     style={{ border: `1px solid ${experience["color"]}` }}
   >
     <div className="experience-card-logo-div">
-      {/* <img
+      <img
         className="experience-card-logo"
         src={require(`../../assests/images/${experience["logo_path"]}`)}
         alt=""
-      /> */}
+      />
     </div>
     <div className="experience-card-body-div">
       <div className="experience-card-header-div">

@@ -1,5 +1,5 @@
 import Greeting from 'components/Homepage/Greeting'
-import Skills from 'components/Homepage/Skills'
+import Skills from 'pages/skills/Skills'
 import TopButton from 'components/utils/TopButton'
 import React from 'react'
 import Footer from '../../components/Homepage/Footer'

@@ -26,11 +26,11 @@ function Projects() {
       <Fade bottom duration={2000} distance="40px">
         <div className="projects-heading-div">
           <div className="projects-heading-img-div">
-            {/* <img
+            <img
               src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
               alt=""
               className=""
-            /> */}
+            />
             {/* <ProjectsImg theme={theme} /> */}
           </div>
           <div className="projects-heading-text-div">
@@ -51,9 +51,9 @@ function Projects() {
       </Fade>
     </div>
     <div className="repo-cards-div-main">
-      {ProjectsData.data.map((repo) => {
+      {/* {ProjectsData.data.map((repo) => {
         return <GithubRepoCard repo={repo} theme={theme} />;
-      })}
+      })} */}
     </div>
     <Button
       text={"More Projects"}
@@ -91,8 +91,7 @@ function Projects() {
       {publications.data.map((pub) => {
         return <PublicationCard pub={pub} theme={theme} />;
       })}
-    </div>
-
+    </div> 
     <Footer theme={theme} />
     <TopButton theme={theme} />
   </div>

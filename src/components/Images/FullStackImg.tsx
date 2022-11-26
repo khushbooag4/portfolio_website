@@ -1,14 +1,14 @@
 import React from 'react'
 
-function FullStackImg() {
-    const theme = require('../../theme')
+function FullStackImg(props: any) {
+    const theme = props.theme;
   return (
     <div> <svg
     id="f0a8f4ba-cc2b-4400-9e08-d246a0bad060"
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
-    width="1098.75"
-    height="632.37039"
+    width="560"
+    height="500"
     viewBox="0 0 1098.75 632.37039"
   >
     <title>heatmap</title>

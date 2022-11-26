@@ -9,6 +9,7 @@ import Footer from 'components/Homepage/Footer';
 import TopButton from 'components/utils/TopButton';
 import Certifications from 'components/utils/Certifications';
 import DegreeCard from 'components/Cards/DegreeCard';
+import EducationImg from 'components/Images/EducationImg';
 
 function Education() {
   return (
@@ -18,11 +19,10 @@ function Education() {
       <Fade bottom duration={2000} distance="40px">
         <div className="heading-div">
           <div className="heading-img-div">
-            {/* <img
-                           src={require("../../assests/images/education.svg")}
+            {/* <img src={require("../../assests/images/education.svg")}
                                 alt=""
                             /> */}
-            {/* <EducationImg theme={theme} /> */}
+            <EducationImg theme={theme} />
           </div>
           <div className="heading-text-div">
             <h1 className="heading-text" style={{ color: theme.text }}>
