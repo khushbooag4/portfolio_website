@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="./src/assests/images/portfolio.jpeg" align="center" height="150" width="500"></img>
+    <img src="./src/assests/images/portfolio.png" align="center" height="150" width="500"></img>
 </p>
 
 <h1 align="center"> Software Developer Portfolio 🔥 </h1> 
@@ -47,6 +47,7 @@ To view a live example, **[click here](https://khushbooag4.github.io/portfolio_w
   ```
 - Now the project is ready to use
 - You can check it using `npm start`, it will open the website locally on your browser.
+
 # Deployment 📦
 
 - The website is deployed on gitHub pages [Click Here](khushbooag4.github.io/portfolio_website)
