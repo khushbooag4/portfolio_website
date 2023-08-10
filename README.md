@@ -33,15 +33,15 @@ To view a live example, **[click here](https://khushbooag4.github.io/portfolio_w
 
 # Clone and Use 📋
 
-- The website is completely built on `react-js` library of `typescript` and that's why we need `nodejs` and `npm` installed
-- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
-- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
-- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
+- The website is built on the `react-js` library of `typescript` and that's why we need `nodejs` and `npm` installed
+- While installing `nodejs` and `npm`, try to install versions that are equal to or greater than the versions mentioned in badges above
+- In case you want to help develop it or simply save it, you can fork the repository just by clicking the button on the top-right corner of this page
+- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using the below command:
   ```bash
    git clone https://github.com/khushbooag4/portfolio_website.git
   ```
   This will clone the whole repository in your system.
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
+- To download the required dependencies to your system, navigate to the directory where the cloned repository resides and execute the following command:
   ```node
   npm install
   ```
@@ -49,7 +49,7 @@ To view a live example, **[click here](https://khushbooag4.github.io/portfolio_w
 - You can check it using `npm start`, it will open the website locally on your browser.
 # Deployment 📦
 
-- The website is deployed on gitHub pages [Click Here](khushbooag4.github.io/portfolio_website)
+- The website is deployed on GitHub pages [Click Here](khushbooag4.github.io/portfolio_website)
 
 # Technologies used 🛠️
 
@@ -72,9 +72,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # Contributing 💡
 
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/khushbooag4/portfolio_website/pulls) or [issue](https://github.com/khushbooag4/portfolio_website/issues).
+Please don't hesitate to open a [pull request](https://github.com/khushbooag4/portfolio_website/pulls) or [issue](https://github.com/khushbooag4/portfolio_website/issues).
 
-- Move to Gatsby
+- Project Section can be made 3D animated
 - Add Podcast Section and Video Section
 - Add tests to automate review.
-- Setup Travis workflow.
