@@ -3,12 +3,11 @@ import { lazy } from 'react';
 import { Suspense } from 'react'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Error404 from 'pages/errors/Errors404';
-
-const Home = lazy(() => import('pages/home/Home'));
-const Projects = lazy(() => import('pages/projects/Projects'));
-const Contact = lazy(() => import('pages/contact/Contact'));
-const Education = lazy(() => import('pages/education/Education'));
-const Experience = lazy(() => import('pages/experience/Experience'));
+import Home from 'pages/home/Home';
+import Projects from 'pages/projects/Projects';
+import Contact from 'pages/contact/Contact';
+import Education from 'pages/education/Education';
+import Experience from 'pages/experience/Experience';
 
 
 function Navigation() {
