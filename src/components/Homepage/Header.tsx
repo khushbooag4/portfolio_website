@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import "../styles/Header.css";
-import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { NavLink } from "react-router-dom";
+import { greeting, navlinks } from "../../portfolio.js";
 import SeoHeader from "components/seoheader/SeoHeader";
 
 function Header(props: any) {
+  const [active, setActive] = useState(false);
 
   const theme = props.theme;
 
@@ -24,7 +25,9 @@ function Header(props: any) {
         <SeoHeader />
         <div>
           <header className="header">
-            <NavLink to={"/"}  className="logo">
+            <NavLink to={"/"}  className="logo" onClick={ () => {
+              window.scrollTo(0, 0);
+            }}>
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
@@ -36,78 +39,23 @@ function Header(props: any) {
               <span className="navicon"></span>
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
-              <li>
+              {navlinks.map((link) => (
+                <li key={link.id} className={`${active === true ? "font-[2019]" : "font-[2300]"}`} onClick={ () => setActive(true)}>
                 <NavLink
-                  to="/"
-                  
+                  to={link.to}
                   // activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event: any)=> onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event: any) => onMouseOut(event)}
                 >
-                  Home
+                  {link.text}
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/education"
-                  
-                  // activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event: any) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event: any) => onMouseOut(event)}
-                >
-                  Education
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/experience"
-                  
-                  // activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event: any) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event: any) => onMouseOut(event)}
-                >
-                  Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/projects"
-                  
-                  // activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event: any) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event: any) => onMouseOut(event)}
-                >
-                  Projects
-                </NavLink>
-              </li>
-              {/* <li>
-                <NavLink
-                  to="/opensource"
-                  
-                  // activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
-                </NavLink>
-              </li> */}
-              <li>
-                <NavLink
-                  to="/contact"
-                  // activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event: any) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event: any) => onMouseOut(event)}
-                >
-                  Contact Me
-                </NavLink>
-              </li>
+              ))}
             </ul>
+            {/* <div className="sm:hidden flex flex-1 justify-end items-center">
+              <img src={menu} alt="menu" className="w-280px h-280px object-contain cursor-pointer"/>
+            </div> */}
           </header>
         </div>
       </Fade>

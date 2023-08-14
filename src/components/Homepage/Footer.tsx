@@ -8,7 +8,7 @@ function Footer(props: any) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text">
-          Made with <span role="img">❤️</span> by {greeting.title}
+          Made with <span role="img">❤️</span> by {greeting.footerTitle}
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>
