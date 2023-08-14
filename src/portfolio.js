@@ -357,8 +357,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "It pays to be good. I worked with startups as a Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  description: "I'm skilled software developer with experience in JavaScript and TypeScript, and expertise in frameworks like React, Node.js and Vue. I'm a quick learner and want to develop scalable, reusable and user's friendly solutions."
   header_image_path: "experience.png",
   sections: [
     {
@@ -474,7 +473,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "khushboo_contact.jpeg",
     description:
-      "Connect with me and contact for any queries. I can help you with JavaScript, React, Cloud and Opensource Development.",
+      "Let's work together to bring ideas to life. I can help you with JavaScript, React, Cloud and Opensource Development.",
     number: "",
     email_address: "",
     subtitle: "Contact me",
