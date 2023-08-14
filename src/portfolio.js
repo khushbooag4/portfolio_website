@@ -35,7 +35,7 @@ const navlinks = [
 const seo = {
   title: "Khushboo Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Computer Science Enthusiast on a Journey of Continuous Learning: Mastering Development and Data Analysis. Fun Fact: I learn things accidentally!  ",
   og: {
     title: "Portfolio Website",
     type: "website",
