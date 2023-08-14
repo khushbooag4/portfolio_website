@@ -357,7 +357,8 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description: "I'm skilled software developer with experience in JavaScript and TypeScript, and expertise in frameworks like React, Node.js and Vue. I'm a quick learner and want to develop scalable, reusable and user's friendly solutions."
+  description:
+    "I'm skilled software developer with experience in JavaScript and TypeScript, and expertise in frameworks like React, Node.js and Vue. I'm a quick learner and want to develop scalable, reusable and user's friendly solutions.",
   header_image_path: "experience.png",
   sections: [
     {
