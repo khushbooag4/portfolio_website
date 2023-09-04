@@ -47,6 +47,7 @@ To view a live example, **[click here](https://khushbooag4.github.io/portfolio_w
   ```
 - Now the project is ready to use
 - You can check it using `npm start`, it will open the website locally on your browser.
+
 # Deployment 📦
 
 - The website is deployed on gitHub pages [Click Here](khushbooag4.github.io/portfolio_website)
@@ -57,7 +58,7 @@ To view a live example, **[click here](https://khushbooag4.github.io/portfolio_w
 - [react-helmet](https://www.npmjs.com/package/react-helmet)
 - [styletron-react](https://styletron.org/react)
 - [baseui](https://github.com/uber/baseweb)
-- [react-reveal](https://www.react-reveal.com/)
+- [react-awesome-reveal](https://www.react-awesome-reveal.com/)
 - [styled-components](https://styled-components.com/)
 <!-- - [graphql](https://graphql.org/)
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) -->
