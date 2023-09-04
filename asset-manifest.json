@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_website/static/css/main.fe45ad8b.css",
-    "main.js": "/portfolio_website/static/js/main.4b7f3752.js",
+    "main.js": "/portfolio_website/static/js/main.32a6ccd2.js",
     "static/media/portfolio.gif": "/portfolio_website/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/portfolio_website/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/IIT.png": "/portfolio_website/static/media/IIT.d82ac43dd112e40b732d.png",
@@ -79,10 +79,10 @@
     "static/media/talksCardBackAlt.svg": "/portfolio_website/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/portfolio_website/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.fe45ad8b.css.map": "/portfolio_website/static/css/main.fe45ad8b.css.map",
-    "main.4b7f3752.js.map": "/portfolio_website/static/js/main.4b7f3752.js.map"
+    "main.32a6ccd2.js.map": "/portfolio_website/static/js/main.32a6ccd2.js.map"
   },
   "entrypoints": [
     "static/css/main.fe45ad8b.css",
-    "static/js/main.4b7f3752.js"
+    "static/js/main.32a6ccd2.js"
   ]
 }
