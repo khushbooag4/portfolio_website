@@ -50,7 +50,7 @@ const greeting = {
   subTitle:
     "Computer Science Enthusiast on a Journey of Continuous Learning: Mastering Development and Data Analysis. Fun Fact: I learn things accidentally!",
   resumeLink:
-    "https://drive.google.com/file/d/199k6GMut9L_gItrrm5BU3EBrCmtZEJqP/view?usp=sharing",
+    "https://drive.google.com/file/d/1-KS_9OQHHCAH42jWtc07JnuGgLX0EG7z/view?usp=sharing",
   githubProfile: "https://www.github.com/khushbooag4",
   footerTitle: "Khushboo Aagrwal",
 };
