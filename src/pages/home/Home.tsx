@@ -11,7 +11,7 @@ function Home() {
    <>
    <Header theme={theme} />
    <Greeting theme={theme} />
-   <Skills theme={theme} />
+   {/* <Skills theme={theme} /> */}
    <Footer theme={theme} />
    <TopButton theme={theme} />
    </>
